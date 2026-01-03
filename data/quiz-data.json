@@ -1,0 +1,3526 @@
+{
+  "modules": [
+    {
+      "id": 1,
+      "name": "Artificial Intelligence",
+      "description": "Questions covering AI concepts, machine learning, and neural networks"
+    },
+    {
+      "id": 2,
+      "name": "Further Programming Paradigms",
+      "description": "Advanced programming concepts including functional programming, concurrency, and design patterns"
+    },
+    {
+      "id": 3,
+      "name": "Advanced Algorithms",
+      "description": "Complex algorithmic problems and data structures"
+    },
+    {
+      "id": 4,
+      "name": "Collaborative Web Project",
+      "description": "Web development, APIs, and collaborative coding practices"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "module_id": 1,
+      "question_text": "What is the primary goal of supervised learning?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "To learn patterns from labeled data to make predictions",
+          "is_correct": true
+        },
+        {
+          "text": "To explore data without any specific goal",
+          "is_correct": false
+        },
+        {
+          "text": "To generate random outputs",
+          "is_correct": false
+        },
+        {
+          "text": "To compress data",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "module_id": 1,
+      "question_text": "Which of the following is NOT a type of neural network?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Convolutional Neural Network (CNN)",
+          "is_correct": false
+        },
+        {
+          "text": "Recurrent Neural Network (RNN)",
+          "is_correct": false
+        },
+        {
+          "text": "Linear Regression Network",
+          "is_correct": true
+        },
+        {
+          "text": "Transformer Network",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "module_id": 1,
+      "question_text": "What does the term 'overfitting' refer to in machine learning?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "When a model performs well on training data but poorly on new data",
+          "is_correct": true
+        },
+        {
+          "text": "When a model is too simple and cannot capture patterns",
+          "is_correct": false
+        },
+        {
+          "text": "When training takes too long",
+          "is_correct": false
+        },
+        {
+          "text": "When the dataset is too small",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "module_id": 2,
+      "question_text": "Which programming paradigm emphasizes immutability and pure functions?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Functional Programming",
+          "is_correct": true
+        },
+        {
+          "text": "Object-Oriented Programming",
+          "is_correct": false
+        },
+        {
+          "text": "Procedural Programming",
+          "is_correct": false
+        },
+        {
+          "text": "Logic Programming",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "module_id": 2,
+      "question_text": "What is a closure in programming?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "A function that has access to variables from its outer scope",
+          "is_correct": true
+        },
+        {
+          "text": "A way to close a program",
+          "is_correct": false
+        },
+        {
+          "text": "A type of loop",
+          "is_correct": false
+        },
+        {
+          "text": "A method to end a function call",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "module_id": 2,
+      "question_text": "Which design pattern is used to ensure only one instance of a class exists?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Singleton Pattern",
+          "is_correct": true
+        },
+        {
+          "text": "Factory Pattern",
+          "is_correct": false
+        },
+        {
+          "text": "Observer Pattern",
+          "is_correct": false
+        },
+        {
+          "text": "Decorator Pattern",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "module_id": 3,
+      "question_text": "What is the time complexity of a balanced binary search tree operation?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "O(log n)",
+          "is_correct": true
+        },
+        {
+          "text": "O(n)",
+          "is_correct": false
+        },
+        {
+          "text": "O(n log n)",
+          "is_correct": false
+        },
+        {
+          "text": "O(1)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "module_id": 3,
+      "question_text": "Which algorithm is used to find the shortest path in a graph with non-negative weights?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Dijkstra's Algorithm",
+          "is_correct": true
+        },
+        {
+          "text": "Bellman-Ford Algorithm",
+          "is_correct": false
+        },
+        {
+          "text": "Floyd-Warshall Algorithm",
+          "is_correct": false
+        },
+        {
+          "text": "A* Algorithm",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "module_id": 3,
+      "question_text": "What does P vs NP problem deal with?",
+      "question_type": "multiple_choice",
+      "difficulty": "hard",
+      "answers": [
+        {
+          "text": "Whether P (polynomial time) equals NP (nondeterministic polynomial time)",
+          "is_correct": true
+        },
+        {
+          "text": "Whether sorting algorithms can run in linear time",
+          "is_correct": false
+        },
+        {
+          "text": "Whether quantum computers are faster than classical computers",
+          "is_correct": false
+        },
+        {
+          "text": "Whether parallel algorithms are more efficient",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "module_id": 4,
+      "question_text": "What does REST stand for in RESTful APIs?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Representational State Transfer",
+          "is_correct": true
+        },
+        {
+          "text": "Remote Execution and Storage Technology",
+          "is_correct": false
+        },
+        {
+          "text": "Resource Sharing and Transfer",
+          "is_correct": false
+        },
+        {
+          "text": "Real-time Event Streaming Technology",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "module_id": 4,
+      "question_text": "Which HTTP method is typically used to update a resource?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "PUT",
+          "is_correct": true
+        },
+        {
+          "text": "GET",
+          "is_correct": false
+        },
+        {
+          "text": "POST",
+          "is_correct": false
+        },
+        {
+          "text": "DELETE",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "module_id": 4,
+      "question_text": "What is CORS in web development?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Cross-Origin Resource Sharing",
+          "is_correct": true
+        },
+        {
+          "text": "Client Object Resource System",
+          "is_correct": false
+        },
+        {
+          "text": "Content Origin Resource Security",
+          "is_correct": false
+        },
+        {
+          "text": "Cross-Object Reference Sharing",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "module_id": 1,
+      "question_text": "What machine learning technique is used to model the probability of a binary outcome?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Logistic Regression",
+          "is_correct": true
+        },
+        {
+          "text": "Linear Regression",
+          "is_correct": false
+        },
+        {
+          "text": "K-Means Clustering",
+          "is_correct": false
+        },
+        {
+          "text": "Principal Component Analysis",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "module_id": 1,
+      "question_text": "What is the mathematical form of the sigmoid function used in logistic regression?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "σ(x) = 1 / (1 + e^(-x))",
+          "is_correct": true
+        },
+        {
+          "text": "σ(x) = e^(-x)",
+          "is_correct": false
+        },
+        {
+          "text": "σ(x) = x^2",
+          "is_correct": false
+        },
+        {
+          "text": "σ(x) = sin(x)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "module_id": 1,
+      "question_text": "In the bias-variance tradeoff, what characterizes a model with high bias and low variance?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Underfitting, simple model",
+          "is_correct": true
+        },
+        {
+          "text": "Overfitting, complex model",
+          "is_correct": false
+        },
+        {
+          "text": "Perfect fit, ideal model",
+          "is_correct": false
+        },
+        {
+          "text": "Random predictions",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "module_id": 1,
+      "question_text": "Which of the following problems does logistic regression solve compared to linear regression for classification?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Constrains output to [0,1] for probability interpretation",
+          "is_correct": true
+        },
+        {
+          "text": "Increases model complexity unnecessarily",
+          "is_correct": false
+        },
+        {
+          "text": "Reduces computational requirements",
+          "is_correct": false
+        },
+        {
+          "text": "Eliminates the need for gradient descent",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "module_id": 1,
+      "question_text": "In logistic regression, what is the term 'logit' referring to?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "The linear combination ax + b",
+          "is_correct": true
+        },
+        {
+          "text": "The sigmoid output",
+          "is_correct": false
+        },
+        {
+          "text": "The training error",
+          "is_correct": false
+        },
+        {
+          "text": "The regularization term",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "module_id": 1,
+      "question_text": "What probability distribution is used to model binary outcomes in logistic regression?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Bernoulli distribution",
+          "is_correct": true
+        },
+        {
+          "text": "Normal distribution",
+          "is_correct": false
+        },
+        {
+          "text": "Poisson distribution",
+          "is_correct": false
+        },
+        {
+          "text": "Uniform distribution",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "module_id": 1,
+      "question_text": "Which cost function is minimized in logistic regression?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Binary cross-entropy (Negative Log Likelihood)",
+          "is_correct": true
+        },
+        {
+          "text": "Mean Squared Error",
+          "is_correct": false
+        },
+        {
+          "text": "Mean Absolute Error",
+          "is_correct": false
+        },
+        {
+          "text": "Hinge loss",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "module_id": 1,
+      "question_text": "In the gradient descent formula w_{t+1} = w_t - ηf'(w_t), what does η represent?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Learning rate",
+          "is_correct": true
+        },
+        {
+          "text": "Regularization parameter",
+          "is_correct": false
+        },
+        {
+          "text": "Bias term",
+          "is_correct": false
+        },
+        {
+          "text": "Error threshold",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "module_id": 1,
+      "question_text": "What is the purpose of adding quadratic terms (x₁², x₂², x₁x₂) in logistic regression?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "To handle non-linearly separable data",
+          "is_correct": true
+        },
+        {
+          "text": "To reduce model complexity",
+          "is_correct": false
+        },
+        {
+          "text": "To increase computational speed",
+          "is_correct": false
+        },
+        {
+          "text": "To eliminate bias",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "module_id": 1,
+      "question_text": "What regularization technique adds penalty λ||w||₂² to the logistic regression cost function?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "L2 regularization (weight decay)",
+          "is_correct": true
+        },
+        {
+          "text": "L1 regularization (LASSO)",
+          "is_correct": false
+        },
+        {
+          "text": "Dropout regularization",
+          "is_correct": false
+        },
+        {
+          "text": "Early stopping",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "module_id": 1,
+      "question_text": "For multiclass classification, which activation function generalizes the sigmoid function?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Softmax function",
+          "is_correct": true
+        },
+        {
+          "text": "ReLU function",
+          "is_correct": false
+        },
+        {
+          "text": "Tanh function",
+          "is_correct": false
+        },
+        {
+          "text": "Step function",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "module_id": 1,
+      "question_text": "Which of the following is NOT a practical issue discussed for handling imbalanced datasets?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Increasing model depth",
+          "is_correct": true
+        },
+        {
+          "text": "Oversampling minority class",
+          "is_correct": false
+        },
+        {
+          "text": "Undersampling majority class",
+          "is_correct": false
+        },
+        {
+          "text": "Weighting minority data more",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "module_id": 1,
+      "question_text": "What is the main purpose of data normalization/scaling in logistic regression?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "To ensure features contribute equally to the model",
+          "is_correct": true
+        },
+        {
+          "text": "To increase dataset size",
+          "is_correct": false
+        },
+        {
+          "text": "To add noise for regularization",
+          "is_correct": false
+        },
+        {
+          "text": "To convert categorical to numerical data",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "module_id": 1,
+      "question_text": "What happens when the learning rate in gradient descent is too large?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "The algorithm may overshoot the minimum and fail to converge",
+          "is_correct": true
+        },
+        {
+          "text": "The algorithm converges faster to the optimal solution",
+          "is_correct": false
+        },
+        {
+          "text": "The algorithm becomes more robust to noise",
+          "is_correct": false
+        },
+        {
+          "text": "The algorithm automatically switches to Newton's method",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "module_id": 1,
+      "question_text": "In the gradient formula for logistic regression, ∇_w NLL(w) = (1/N)∑(μ_n - y_n)x_n, what does (μ_n - y_n) represent?",
+      "question_type": "multiple_choice",
+      "difficulty": "hard",
+      "answers": [
+        {
+          "text": "Prediction error for each sample",
+          "is_correct": true
+        },
+        {
+          "text": "Regularization penalty",
+          "is_correct": false
+        },
+        {
+          "text": "Learning rate adjustment",
+          "is_correct": false
+        },
+        {
+          "text": "Feature importance score",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "module_id": 1,
+      "question_text": "Which of the following is a key advantage of logistic regression over polynomial regression for classification?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Stable extrapolation outside training range",
+          "is_correct": true
+        },
+        {
+          "text": "Higher model capacity for complex patterns",
+          "is_correct": false
+        },
+        {
+          "text": "Faster training time",
+          "is_correct": false
+        },
+        {
+          "text": "No need for optimization",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "module_id": 1,
+      "question_text": "Which machine learning category includes regression as a subfield?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Supervised Learning",
+          "is_correct": true
+        },
+        {
+          "text": "Unsupervised Learning",
+          "is_correct": false
+        },
+        {
+          "text": "Reinforcement Learning",
+          "is_correct": false
+        },
+        {
+          "text": "Semi-supervised Learning",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "module_id": 1,
+      "question_text": "What is the primary goal of regression in machine learning?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Learn f(x) to predict y given new x",
+          "is_correct": true
+        },
+        {
+          "text": "Group similar data points together",
+          "is_correct": false
+        },
+        {
+          "text": "Reduce dimensionality of data",
+          "is_correct": false
+        },
+        {
+          "text": "Learn optimal actions through rewards",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "module_id": 1,
+      "question_text": "Which solution is used for linear regression when there are more data points than dimensions?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "[a, b] = (AᵀA)⁻¹Aᵀy",
+          "is_correct": true
+        },
+        {
+          "text": "[a, b] = A⁻¹y",
+          "is_correct": false
+        },
+        {
+          "text": "[a, b] = Aᵀ(AAᵀ)⁻¹y",
+          "is_correct": false
+        },
+        {
+          "text": "[a, b] = Aᵀy",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "module_id": 1,
+      "question_text": "What are the three components of a regression problem?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Representation, Evaluation, Optimization",
+          "is_correct": true
+        },
+        {
+          "text": "Data, Model, Training",
+          "is_correct": false
+        },
+        {
+          "text": "Input, Output, Algorithm",
+          "is_correct": false
+        },
+        {
+          "text": "Features, Labels, Loss",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "module_id": 1,
+      "question_text": "In the search-based approach to linear regression, what evaluation metric is typically minimized?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Mean Square Error (MSE)",
+          "is_correct": true
+        },
+        {
+          "text": "Mean Absolute Percentage Error",
+          "is_correct": false
+        },
+        {
+          "text": "R-squared",
+          "is_correct": false
+        },
+        {
+          "text": "Cross-entropy",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "module_id": 1,
+      "question_text": "What is the main advantage of gradient descent over exhaustive search for linear regression?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "More efficient computation for high-dimensional spaces",
+          "is_correct": true
+        },
+        {
+          "text": "Always finds global optimum",
+          "is_correct": false
+        },
+        {
+          "text": "Doesn't require derivative computation",
+          "is_correct": false
+        },
+        {
+          "text": "Guarantees zero error",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "module_id": 1,
+      "question_text": "What probabilistic distribution is assumed for the noise in linear regression with Gaussian errors?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Normal/Gaussian distribution",
+          "is_correct": true
+        },
+        {
+          "text": "Bernoulli distribution",
+          "is_correct": false
+        },
+        {
+          "text": "Poisson distribution",
+          "is_correct": false
+        },
+        {
+          "text": "Uniform distribution",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "module_id": 1,
+      "question_text": "What regularization technique adds an L2 penalty to the linear regression cost function?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Ridge Regression",
+          "is_correct": true
+        },
+        {
+          "text": "Lasso Regression",
+          "is_correct": false
+        },
+        {
+          "text": "Elastic Net",
+          "is_correct": false
+        },
+        {
+          "text": "Least Squares",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "module_id": 1,
+      "question_text": "Which regularization method tends to produce sparse solutions with exactly zero weights?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Lasso Regression (L1 regularization)",
+          "is_correct": true
+        },
+        {
+          "text": "Ridge Regression (L2 regularization)",
+          "is_correct": false
+        },
+        {
+          "text": "Least Squares",
+          "is_correct": false
+        },
+        {
+          "text": "Gradient Descent",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "module_id": 1,
+      "question_text": "What is the combined regularization approach that uses both L1 and L2 penalties?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Elastic Net",
+          "is_correct": true
+        },
+        {
+          "text": "Ridge Regression",
+          "is_correct": false
+        },
+        {
+          "text": "Lasso Regression",
+          "is_correct": false
+        },
+        {
+          "text": "Bayesian Regression",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "module_id": 1,
+      "question_text": "In polynomial regression, what does the function φ(x) represent?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Feature transformation/basis function",
+          "is_correct": true
+        },
+        {
+          "text": "Error function",
+          "is_correct": false
+        },
+        {
+          "text": "Learning rate",
+          "is_correct": false
+        },
+        {
+          "text": "Regularization parameter",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "module_id": 1,
+      "question_text": "What problem occurs when using very high-degree polynomials for regression?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Overfitting",
+          "is_correct": true
+        },
+        {
+          "text": "Underfitting",
+          "is_correct": false
+        },
+        {
+          "text": "Perfect generalization",
+          "is_correct": false
+        },
+        {
+          "text": "Faster convergence",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "module_id": 1,
+      "question_text": "According to the bias-variance decomposition, what are the three components of expected error?",
+      "question_type": "multiple_choice",
+      "difficulty": "hard",
+      "answers": [
+        {
+          "text": "Bias² + Variance + Irreducible Error",
+          "is_correct": true
+        },
+        {
+          "text": "Training Error + Validation Error + Test Error",
+          "is_correct": false
+        },
+        {
+          "text": "Underfitting + Overfitting + Perfect Fit",
+          "is_correct": false
+        },
+        {
+          "text": "L1 Loss + L2 Loss + Cross-entropy",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "module_id": 1,
+      "question_text": "What technique involves splitting data into multiple folds for model evaluation?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "k-fold Cross-validation",
+          "is_correct": true
+        },
+        {
+          "text": "Gradient Descent",
+          "is_correct": false
+        },
+        {
+          "text": "Regularization",
+          "is_correct": false
+        },
+        {
+          "text": "Feature Scaling",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "module_id": 1,
+      "question_text": "Which scenario is most likely to lead to overfitting?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Complex model with limited data",
+          "is_correct": true
+        },
+        {
+          "text": "Simple model with abundant data",
+          "is_correct": false
+        },
+        {
+          "text": "Complex model with abundant data",
+          "is_correct": false
+        },
+        {
+          "text": "Simple model with limited data",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "module_id": 1,
+      "question_text": "What is the purpose of using a validation set in model evaluation?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Estimate generalization performance without using test set",
+          "is_correct": true
+        },
+        {
+          "text": "Increase training data size",
+          "is_correct": false
+        },
+        {
+          "text": "Reduce computational cost",
+          "is_correct": false
+        },
+        {
+          "text": "Eliminate all errors",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "module_id": 1,
+      "question_text": "What is the term for a single numerical value in linear algebra?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Scalar",
+          "is_correct": true
+        },
+        {
+          "text": "Vector",
+          "is_correct": false
+        },
+        {
+          "text": "Matrix",
+          "is_correct": false
+        },
+        {
+          "text": "Tensor",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "module_id": 1,
+      "question_text": "What is the correct notation for the dot product of two vectors a and b?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "aᵀb",
+          "is_correct": true
+        },
+        {
+          "text": "a × b",
+          "is_correct": false
+        },
+        {
+          "text": "a·bᵀ",
+          "is_correct": false
+        },
+        {
+          "text": "ab",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "module_id": 1,
+      "question_text": "A set of vectors is linearly independent if:",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "No vector can be expressed as a linear combination of the others",
+          "is_correct": true
+        },
+        {
+          "text": "All vectors have different magnitudes",
+          "is_correct": false
+        },
+        {
+          "text": "Vectors are orthogonal to each other",
+          "is_correct": false
+        },
+        {
+          "text": "Vectors have the same dimension",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "module_id": 1,
+      "question_text": "What operation swaps the rows and columns of a matrix?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Transpose (Aᵀ)",
+          "is_correct": true
+        },
+        {
+          "text": "Inverse (A⁻¹)",
+          "is_correct": false
+        },
+        {
+          "text": "Determinant (det(A))",
+          "is_correct": false
+        },
+        {
+          "text": "Trace (tr(A))",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "module_id": 1,
+      "question_text": "For matrix A, the range (or column space) is defined as:",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "The span of the column vectors of A",
+          "is_correct": true
+        },
+        {
+          "text": "The set of all vectors orthogonal to A",
+          "is_correct": false
+        },
+        {
+          "text": "The set of all vectors x such that Ax = 0",
+          "is_correct": false
+        },
+        {
+          "text": "The dimension of the null space of A",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "module_id": 1,
+      "question_text": "What is the null space of a matrix A?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "The set of all vectors x such that Ax = 0",
+          "is_correct": true
+        },
+        {
+          "text": "The set of all vectors in the range of A",
+          "is_correct": false
+        },
+        {
+          "text": "The set of all vectors orthogonal to A",
+          "is_correct": false
+        },
+        {
+          "text": "The number of zero eigenvalues of A",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "module_id": 1,
+      "question_text": "For a matrix A ∈ ℝ^{m×n}, when is it said to be full rank?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "When rank(A) = min(m, n)",
+          "is_correct": true
+        },
+        {
+          "text": "When rank(A) = m + n",
+          "is_correct": false
+        },
+        {
+          "text": "When rank(A) = max(m, n)",
+          "is_correct": false
+        },
+        {
+          "text": "When rank(A) = 0",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "module_id": 1,
+      "question_text": "In a system of linear equations Ax = b, what describes an overdetermined system?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "m > n (more equations than unknowns)",
+          "is_correct": true
+        },
+        {
+          "text": "m < n (fewer equations than unknowns)",
+          "is_correct": false
+        },
+        {
+          "text": "m = n (equal equations and unknowns)",
+          "is_correct": false
+        },
+        {
+          "text": "All equations are linearly dependent",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "module_id": 1,
+      "question_text": "For an overdetermined system Ax = b (m > n), what method provides an approximate solution?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Least squares: x̂ = (AᵀA)⁻¹Aᵀb",
+          "is_correct": true
+        },
+        {
+          "text": "Right pseudo-inverse: x = Aᵀ(AAᵀ)⁻¹b",
+          "is_correct": false
+        },
+        {
+          "text": "Direct inverse: x = A⁻¹b",
+          "is_correct": false
+        },
+        {
+          "text": "Gaussian elimination only",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "module_id": 1,
+      "question_text": "Which norm is also known as the Euclidean norm for vectors?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "2-norm (||x||₂)",
+          "is_correct": true
+        },
+        {
+          "text": "1-norm (||x||₁)",
+          "is_correct": false
+        },
+        {
+          "text": "Infinity norm (||x||∞)",
+          "is_correct": false
+        },
+        {
+          "text": "0-norm (||x||₀)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "module_id": 1,
+      "question_text": "What does the 0-norm of a vector count?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Number of non-zero elements",
+          "is_correct": true
+        },
+        {
+          "text": "Sum of absolute values",
+          "is_correct": false
+        },
+        {
+          "text": "Euclidean length",
+          "is_correct": false
+        },
+        {
+          "text": "Maximum absolute value",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "module_id": 1,
+      "question_text": "Which matrix norm is defined as √(tr(AᵀA)) and is equivalent to treating the matrix as a vector?",
+      "question_type": "multiple_choice",
+      "difficulty": "hard",
+      "answers": [
+        {
+          "text": "Frobenius norm",
+          "is_correct": true
+        },
+        {
+          "text": "Nuclear norm",
+          "is_correct": false
+        },
+        {
+          "text": "Induced 2-norm",
+          "is_correct": false
+        },
+        {
+          "text": "1-norm",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "module_id": 1,
+      "question_text": "For eigenvalue decomposition A = UΛU⁻¹, what do the columns of U represent?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Eigenvectors of A",
+          "is_correct": true
+        },
+        {
+          "text": "Singular values of A",
+          "is_correct": false
+        },
+        {
+          "text": "Eigenvalues of A",
+          "is_correct": false
+        },
+        {
+          "text": "Inverse of A",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "module_id": 1,
+      "question_text": "What does SVD (Singular Value Decomposition) generalize that EVD (Eigenvalue Decomposition) cannot handle?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Rectangular matrices",
+          "is_correct": true
+        },
+        {
+          "text": "Square matrices",
+          "is_correct": false
+        },
+        {
+          "text": "Symmetric matrices",
+          "is_correct": false
+        },
+        {
+          "text": "Diagonal matrices",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "module_id": 1,
+      "question_text": "Which of the following is NOT a condition for a matrix to be invertible?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Having more rows than columns",
+          "is_correct": true
+        },
+        {
+          "text": "Being square (m = n)",
+          "is_correct": false
+        },
+        {
+          "text": "Being full rank",
+          "is_correct": false
+        },
+        {
+          "text": "Having linearly independent columns",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "module_id": 1,
+      "question_text": "For a symmetric matrix A, what is true about its eigenvalues and eigenvectors?",
+      "question_type": "multiple_choice",
+      "difficulty": "hard",
+      "answers": [
+        {
+          "text": "Eigenvalues are real and eigenvectors are orthogonal",
+          "is_correct": true
+        },
+        {
+          "text": "Eigenvalues are always positive",
+          "is_correct": false
+        },
+        {
+          "text": "Eigenvectors are always unit vectors",
+          "is_correct": false
+        },
+        {
+          "text": "Eigenvalues are complex conjugates",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "module_id": 1,
+      "question_text": "Which of the following best defines probability?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Counting favorable outcomes divided by total possible outcomes",
+          "is_correct": true
+        },
+        {
+          "text": "Random guess without calculation",
+          "is_correct": false
+        },
+        {
+          "text": "Subjective belief without evidence",
+          "is_correct": false
+        },
+        {
+          "text": "Mathematical constant like π",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "module_id": 1,
+      "question_text": "What is the sample space when tossing a fair coin twice?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "{HH, HT, TH, TT}",
+          "is_correct": true
+        },
+        {
+          "text": "{H, T}",
+          "is_correct": false
+        },
+        {
+          "text": "{HH, TT}",
+          "is_correct": false
+        },
+        {
+          "text": "{0, 1, 2}",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "module_id": 1,
+      "question_text": "According to probability axioms, what is the total probability of all possible outcomes?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "1",
+          "is_correct": true
+        },
+        {
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "text": "0.5",
+          "is_correct": false
+        },
+        {
+          "text": "It varies depending on the experiment",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "module_id": 1,
+      "question_text": "What is the formula for conditional probability P(A|B)?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "P(A∩B) / P(B)",
+          "is_correct": true
+        },
+        {
+          "text": "P(B∩A) / P(A)",
+          "is_correct": false
+        },
+        {
+          "text": "P(A) × P(B)",
+          "is_correct": false
+        },
+        {
+          "text": "P(A) + P(B) - P(A∩B)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "module_id": 1,
+      "question_text": "What is Bayes' Theorem used for?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Relating P(A|B) to P(B|A)",
+          "is_correct": true
+        },
+        {
+          "text": "Calculating independent probabilities",
+          "is_correct": false
+        },
+        {
+          "text": "Determining sample space size",
+          "is_correct": false
+        },
+        {
+          "text": "Finding the mean of a distribution",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "module_id": 1,
+      "question_text": "What is a discrete random variable?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "A variable that takes countable number of values",
+          "is_correct": true
+        },
+        {
+          "text": "A variable that can take any real number",
+          "is_correct": false
+        },
+        {
+          "text": "A variable with continuous measurements",
+          "is_correct": false
+        },
+        {
+          "text": "A variable that is always integer",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "module_id": 1,
+      "question_text": "For continuous random variables, what is P(X = a) for any specific value a?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "0",
+          "is_correct": true
+        },
+        {
+          "text": "1",
+          "is_correct": false
+        },
+        {
+          "text": "f(a)",
+          "is_correct": false
+        },
+        {
+          "text": "Depends on the distribution",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "module_id": 1,
+      "question_text": "What does a probability density function (PDF) represent for continuous variables?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Weighting function where area under curve gives probability",
+          "is_correct": true
+        },
+        {
+          "text": "Probability of exact value occurrence",
+          "is_correct": false
+        },
+        {
+          "text": "Count of occurrences per value",
+          "is_correct": false
+        },
+        {
+          "text": "Cumulative probability up to a point",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "module_id": 1,
+      "question_text": "What is the expectation (mean) of a discrete random variable X?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Σ x·P(x)",
+          "is_correct": true
+        },
+        {
+          "text": "Σ P(x)",
+          "is_correct": false
+        },
+        {
+          "text": "max(x)·P(x)",
+          "is_correct": false
+        },
+        {
+          "text": "∫ x·f(x) dx",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "module_id": 1,
+      "question_text": "Who proposed the Turing Test to evaluate machine intelligence?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Alan Turing",
+          "is_correct": true
+        },
+        {
+          "text": "John McCarthy",
+          "is_correct": false
+        },
+        {
+          "text": "Marvin Minsky",
+          "is_correct": false
+        },
+        {
+          "text": "Arthur Samuel",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "module_id": 1,
+      "question_text": "What was the first AI program created in 1956?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Logic Theorist",
+          "is_correct": true
+        },
+        {
+          "text": "Deep Blue",
+          "is_correct": false
+        },
+        {
+          "text": "ELIZA",
+          "is_correct": false
+        },
+        {
+          "text": "Perceptron",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "module_id": 1,
+      "question_text": "Who coined the term 'machine learning'?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Arthur Samuel",
+          "is_correct": true
+        },
+        {
+          "text": "John McCarthy",
+          "is_correct": false
+        },
+        {
+          "text": "Alan Turing",
+          "is_correct": false
+        },
+        {
+          "text": "Tom Mitchell",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "module_id": 1,
+      "question_text": "What is the 'semantic gap' in computer vision?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Difference between pixel values and human interpretation",
+          "is_correct": true
+        },
+        {
+          "text": "Gap between training and testing accuracy",
+          "is_correct": false
+        },
+        {
+          "text": "Difference between supervised and unsupervised learning",
+          "is_correct": false
+        },
+        {
+          "text": "Gap between AI and human intelligence",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "module_id": 1,
+      "question_text": "What is a feature extractor in machine learning?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Extracts relevant information from raw data for classification",
+          "is_correct": true
+        },
+        {
+          "text": "Removes irrelevant data points",
+          "is_correct": false
+        },
+        {
+          "text": "Selects the best algorithm for a task",
+          "is_correct": false
+        },
+        {
+          "text": "Extracts training samples from dataset",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "module_id": 1,
+      "question_text": "What is the L1 distance between two vectors I₁ and I₂?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Σ|I₁ᵖ - I₂ᵖ|",
+          "is_correct": true
+        },
+        {
+          "text": "√Σ(I₁ᵖ - I₂ᵖ)²",
+          "is_correct": false
+        },
+        {
+          "text": "max|I₁ᵖ - I₂ᵖ|",
+          "is_correct": false
+        },
+        {
+          "text": "Σ(I₁ᵖ - I₂ᵖ)²",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "module_id": 1,
+      "question_text": "In K-Nearest Neighbors, what does the parameter K represent?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Number of nearest neighbors to consider",
+          "is_correct": true
+        },
+        {
+          "text": "Number of classes in the dataset",
+          "is_correct": false
+        },
+        {
+          "text": "Number of features used",
+          "is_correct": false
+        },
+        {
+          "text": "Number of training iterations",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "module_id": 1,
+      "question_text": "What is the purpose of a validation set in machine learning?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Tune hyperparameters without touching test set",
+          "is_correct": true
+        },
+        {
+          "text": "Final evaluation of model performance",
+          "is_correct": false
+        },
+        {
+          "text": "Additional training data",
+          "is_correct": false
+        },
+        {
+          "text": "Replace test set entirely",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "module_id": 1,
+      "question_text": "What is k-fold cross-validation used for?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Robust hyperparameter tuning with less variance",
+          "is_correct": true
+        },
+        {
+          "text": "Increasing training dataset size",
+          "is_correct": false
+        },
+        {
+          "text": "Reducing computational complexity",
+          "is_correct": false
+        },
+        {
+          "text": "Eliminating the need for test set",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "module_id": 1,
+      "question_text": "Which learning type uses labeled training data?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Supervised Learning",
+          "is_correct": true
+        },
+        {
+          "text": "Unsupervised Learning",
+          "is_correct": false
+        },
+        {
+          "text": "Reinforcement Learning",
+          "is_correct": false
+        },
+        {
+          "text": "Semi-supervised Learning",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "module_id": 1,
+      "question_text": "What is the main challenge addressed by reinforcement learning?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Learning optimal actions through rewards/penalties",
+          "is_correct": true
+        },
+        {
+          "text": "Classifying data without labels",
+          "is_correct": false
+        },
+        {
+          "text": "Finding patterns in unlabeled data",
+          "is_correct": false
+        },
+        {
+          "text": "Predicting continuous values",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "module_id": 2,
+      "question_text": "What is a key characteristic of functional programming languages?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Emphasis on mutable state and side effects",
+          "is_correct": false
+        },
+        {
+          "text": "Computation as evaluation of mathematical functions with immutability",
+          "is_correct": true
+        },
+        {
+          "text": "Use of loops as the primary iteration mechanism",
+          "is_correct": false
+        },
+        {
+          "text": "Dynamic typing with implicit type coercion",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "module_id": 2,
+      "question_text": "Which of the following is a pure functional language?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Python",
+          "is_correct": false
+        },
+        {
+          "text": "Java",
+          "is_correct": false
+        },
+        {
+          "text": "Haskell",
+          "is_correct": true
+        },
+        {
+          "text": "C++",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "module_id": 2,
+      "question_text": "What does immutability mean in functional languages?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Variables can be reassigned multiple times",
+          "is_correct": false
+        },
+        {
+          "text": "Variables cannot be changed after initialisation",
+          "is_correct": true
+        },
+        {
+          "text": "Functions can modify global state",
+          "is_correct": false
+        },
+        {
+          "text": "Data types are dynamic",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "module_id": 2,
+      "question_text": "Which Haskell keyword is used to define a new algebraic data type?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "type",
+          "is_correct": false
+        },
+        {
+          "text": "class",
+          "is_correct": false
+        },
+        {
+          "text": "data",
+          "is_correct": true
+        },
+        {
+          "text": "let",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "module_id": 2,
+      "question_text": "What is a higher-order function?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "A function that only works with integers",
+          "is_correct": false
+        },
+        {
+          "text": "A function that takes other functions as arguments or returns them",
+          "is_correct": true
+        },
+        {
+          "text": "A function defined inside another function",
+          "is_correct": false
+        },
+        {
+          "text": "A function that cannot be called recursively",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "module_id": 2,
+      "question_text": "Which of the following is used in Haskell to handle side effects like I/O?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Loops",
+          "is_correct": false
+        },
+        {
+          "text": "Global variables",
+          "is_correct": false
+        },
+        {
+          "text": "Monads",
+          "is_correct": true
+        },
+        {
+          "text": "Pointers",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "module_id": 2,
+      "question_text": "In Haskell, what does pattern matching allow you to do?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Assign multiple values at once",
+          "is_correct": false
+        },
+        {
+          "text": "Deconstruct data types and bind values to patterns",
+          "is_correct": true
+        },
+        {
+          "text": "Change the type of a variable",
+          "is_correct": false
+        },
+        {
+          "text": "Import external modules",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "module_id": 2,
+      "question_text": "What is the result of applying `take 3 [5,4,3,2,1]` in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "[3,2,1]",
+          "is_correct": false
+        },
+        {
+          "text": "[5,4,3]",
+          "is_correct": true
+        },
+        {
+          "text": "[5,4]",
+          "is_correct": false
+        },
+        {
+          "text": "[]",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "module_id": 2,
+      "question_text": "Which built-in Haskell function checks if a list is empty?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "length",
+          "is_correct": false
+        },
+        {
+          "text": "head",
+          "is_correct": false
+        },
+        {
+          "text": "null",
+          "is_correct": true
+        },
+        {
+          "text": "reverse",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "module_id": 2,
+      "question_text": "What does the `foldl` function do in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Splits a list into two parts",
+          "is_correct": false
+        },
+        {
+          "text": "Reverses the order of a list",
+          "is_correct": false
+        },
+        {
+          "text": "Applies a function to accumulate values from a list",
+          "is_correct": true
+        },
+        {
+          "text": "Filters elements based on a condition",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "module_id": 2,
+      "question_text": "How does Haskell handle iteration in the absence of traditional loops?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Using only while loops",
+          "is_correct": false
+        },
+        {
+          "text": "Using recursion and higher-order functions like map and fold",
+          "is_correct": true
+        },
+        {
+          "text": "Using goto statements",
+          "is_correct": false
+        },
+        {
+          "text": "Using external iteration libraries",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "module_id": 2,
+      "question_text": "Which of these is an example of a polymorphic function in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "add :: Int -> Int -> Int",
+          "is_correct": false
+        },
+        {
+          "text": "id :: a -> a",
+          "is_correct": true
+        },
+        {
+          "text": "length :: [a] -> Int",
+          "is_correct": true
+        },
+        {
+          "text": "reverse :: [a] -> [a]",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "module_id": 2,
+      "question_text": "What is the purpose of the `case` expression in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "To define new variables",
+          "is_correct": false
+        },
+        {
+          "text": "To import modules",
+          "is_correct": false
+        },
+        {
+          "text": "To handle multiple patterns in a single expression",
+          "is_correct": true
+        },
+        {
+          "text": "To declare type classes",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "module_id": 2,
+      "question_text": "Which of the following is true about Haskell's type system?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "It is dynamically typed",
+          "is_correct": false
+        },
+        {
+          "text": "It allows implicit type coercion",
+          "is_correct": false
+        },
+        {
+          "text": "It is statically typed with compile-time inference",
+          "is_correct": true
+        },
+        {
+          "text": "It does not support user-defined types",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "module_id": 2,
+      "question_text": "What is the correct way to check if an element is in a list using `elem`?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "elem 4 [3,4,5,6]",
+          "is_correct": false
+        },
+        {
+          "text": "4 'elem' [3,4,5,6]",
+          "is_correct": true
+        },
+        {
+          "text": "elem(4, [3,4,5,6])",
+          "is_correct": false
+        },
+        {
+          "text": "[3,4,5,6] elem 4",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "module_id": 2,
+      "question_text": "What is the purpose of a type alias such as `type ShopItem = (String, Int)` in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "To create a new algebraic data type with constructors",
+          "is_correct": false
+        },
+        {
+          "text": "To rename an existing type to improve code clarity",
+          "is_correct": true
+        },
+        {
+          "text": "To define a function that returns a tuple",
+          "is_correct": false
+        },
+        {
+          "text": "To import modules from the Prelude",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "module_id": 2,
+      "question_text": "Which of the following defines an enumerated type in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "data Person = Person String Int",
+          "is_correct": false
+        },
+        {
+          "text": "type Move = String",
+          "is_correct": false
+        },
+        {
+          "text": "data Move = Rock | Paper | Scissors",
+          "is_correct": true
+        },
+        {
+          "text": "data Shape = Circle Float | Rectangle Float Float",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "module_id": 2,
+      "question_text": "How does Haskell's `Maybe` type help with error handling?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "It allows functions to return multiple values",
+          "is_correct": false
+        },
+        {
+          "text": "It represents optional values, with `Nothing` indicating absence and `Just a` indicating presence",
+          "is_correct": true
+        },
+        {
+          "text": "It automatically catches runtime exceptions",
+          "is_correct": false
+        },
+        {
+          "text": "It replaces all need for pattern matching",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "module_id": 2,
+      "question_text": "What does the `safeDivide` function return when dividing by zero?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Just 0",
+          "is_correct": false
+        },
+        {
+          "text": "Nothing",
+          "is_correct": true
+        },
+        {
+          "text": "An error message",
+          "is_correct": false
+        },
+        {
+          "text": "0",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "module_id": 2,
+      "question_text": "In the context of Algebraic Data Types, what is a product type?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "A type that enumerates a fixed set of values",
+          "is_correct": false
+        },
+        {
+          "text": "A type that combines multiple values into a single type, like a tuple or record",
+          "is_correct": true
+        },
+        {
+          "text": "A type used only for arithmetic operations",
+          "is_correct": false
+        },
+        {
+          "text": "A type that represents recursive data structures",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "module_id": 2,
+      "question_text": "Which function would you use to apply a function to each element of a list in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "filter",
+          "is_correct": false
+        },
+        {
+          "text": "foldr",
+          "is_correct": false
+        },
+        {
+          "text": "map",
+          "is_correct": true
+        },
+        {
+          "text": "concat",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "module_id": 2,
+      "question_text": "What is the result of `foldr (+) 0 [1, 2, 3]`?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "6",
+          "is_correct": true
+        },
+        {
+          "text": "0",
+          "is_correct": false
+        },
+        {
+          "text": "[1, 2, 3]",
+          "is_correct": false
+        },
+        {
+          "text": "An error",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "module_id": 2,
+      "question_text": "Which Prelude function concatenates a list of lists into a single list?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "head",
+          "is_correct": false
+        },
+        {
+          "text": "length",
+          "is_correct": false
+        },
+        {
+          "text": "concat",
+          "is_correct": true
+        },
+        {
+          "text": "zipWith",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "module_id": 2,
+      "question_text": "In the example `type Picture = [[Char]]`, what does `Picture` represent?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "A single string",
+          "is_correct": false
+        },
+        {
+          "text": "A list of characters",
+          "is_correct": false
+        },
+        {
+          "text": "A 2D grid of characters where each inner list is a row",
+          "is_correct": true
+        },
+        {
+          "text": "A tuple of strings",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "module_id": 2,
+      "question_text": "What does the `flipV` function do to a `Picture`?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Reverses the order of rows",
+          "is_correct": false
+        },
+        {
+          "text": "Reverses each row (mirrors horizontally)",
+          "is_correct": true
+        },
+        {
+          "text": "Flips the picture upside down",
+          "is_correct": false
+        },
+        {
+          "text": "Inverts the colours of each pixel",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "module_id": 2,
+      "question_text": "Which operator is used for function composition in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "$",
+          "is_correct": false
+        },
+        {
+          "text": ".",
+          "is_correct": true
+        },
+        {
+          "text": "++",
+          "is_correct": false
+        },
+        {
+          "text": "<-",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "module_id": 2,
+      "question_text": "What is a key advantage of using Algebraic Data Types over tuples?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "They use less memory",
+          "is_correct": false
+        },
+        {
+          "text": "They provide clearer labeling, controlled construction, and better error messages",
+          "is_correct": true
+        },
+        {
+          "text": "They are always polymorphic",
+          "is_correct": false
+        },
+        {
+          "text": "They cannot be recursive",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "module_id": 2,
+      "question_text": "In pattern matching, what does the underscore `_` represent?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "A wildcard that matches any value and ignores it",
+          "is_correct": true
+        },
+        {
+          "text": "A specific constant value",
+          "is_correct": false
+        },
+        {
+          "text": "The head of a list",
+          "is_correct": false
+        },
+        {
+          "text": "A type variable",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "module_id": 2,
+      "question_text": "Which of the following is a correct definition of a recursive algebraic data type?",
+      "question_type": "multiple_choice",
+      "difficulty": "hard",
+      "answers": [
+        {
+          "text": "data Tree = Leaf Int | Node Tree Tree",
+          "is_correct": true
+        },
+        {
+          "text": "data Pair = Pair Int Int",
+          "is_correct": false
+        },
+        {
+          "text": "type List = [Int]",
+          "is_correct": false
+        },
+        {
+          "text": "data Color = Red | Blue",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "module_id": 2,
+      "question_text": "What does the `zipWith` function do?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Concatenates two lists",
+          "is_correct": false
+        },
+        {
+          "text": "Applies a function pairwise to elements of two lists",
+          "is_correct": true
+        },
+        {
+          "text": "Filters elements from a list",
+          "is_correct": false
+        },
+        {
+          "text": "Reverses a list",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "module_id": 2,
+      "question_text": "What is a type class in Haskell most similar to in other programming languages?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "A class with inheritance",
+          "is_correct": false
+        },
+        {
+          "text": "An interface that defines a set of functions",
+          "is_correct": true
+        },
+        {
+          "text": "A global variable",
+          "is_correct": false
+        },
+        {
+          "text": "A function template",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "module_id": 2,
+      "question_text": "Which keyword is used to define a type class in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "instance",
+          "is_correct": false
+        },
+        {
+          "text": "type",
+          "is_correct": false
+        },
+        {
+          "text": "class",
+          "is_correct": true
+        },
+        {
+          "text": "data",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "module_id": 2,
+      "question_text": "What does the `Functor` type class provide in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "A way to compare values for equality",
+          "is_correct": false
+        },
+        {
+          "text": "A structure for mapping functions over wrapped values",
+          "is_correct": true
+        },
+        {
+          "text": "A mechanism for handling I/O operations",
+          "is_correct": false
+        },
+        {
+          "text": "A method for defining recursive data types",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "module_id": 2,
+      "question_text": "Which of the following is a valid `Functor` instance for `Maybe`?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "fmap f Nothing = Just (f x)",
+          "is_correct": false
+        },
+        {
+          "text": "fmap f (Just x) = Just (f x)",
+          "is_correct": true
+        },
+        {
+          "text": "fmap f Nothing = f",
+          "is_correct": false
+        },
+        {
+          "text": "fmap f (Just x) = f x",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "module_id": 2,
+      "question_text": "What is the main purpose of the `Monad` type class?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "To define algebraic data types",
+          "is_correct": false
+        },
+        {
+          "text": "To enable chaining of computations with context, such as side effects or optional values",
+          "is_correct": true
+        },
+        {
+          "text": "To provide arithmetic operations",
+          "is_correct": false
+        },
+        {
+          "text": "To convert values to strings",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "module_id": 2,
+      "question_text": "What does the bind operator `>>=` do in the context of monads?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "It returns a value wrapped in a monadic context",
+          "is_correct": false
+        },
+        {
+          "text": "It sequences two actions, discarding the result of the first",
+          "is_correct": false
+        },
+        {
+          "text": "It chains monadic operations by passing the result of one to the next",
+          "is_correct": true
+        },
+        {
+          "text": "It maps a function over a wrapped value",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "module_id": 2,
+      "question_text": "In the `Maybe` monad, what does `Nothing >>= f` evaluate to?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Just (f x)",
+          "is_correct": false
+        },
+        {
+          "text": "f Nothing",
+          "is_correct": false
+        },
+        {
+          "text": "Nothing",
+          "is_correct": true
+        },
+        {
+          "text": "An error",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "module_id": 2,
+      "question_text": "Which of the following is a superclass of `Ord`?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Num",
+          "is_correct": false
+        },
+        {
+          "text": "Eq",
+          "is_correct": true
+        },
+        {
+          "text": "Show",
+          "is_correct": false
+        },
+        {
+          "text": "Functor",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "module_id": 2,
+      "question_text": "What is the role of the `return` function in the `Monad` type class?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "To exit a monadic computation",
+          "is_correct": false
+        },
+        {
+          "text": "To wrap a pure value into a monadic context",
+          "is_correct": true
+        },
+        {
+          "text": "To bind two monadic actions",
+          "is_correct": false
+        },
+        {
+          "text": "To map a function over a monadic value",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "module_id": 2,
+      "question_text": "How does Haskell model I/O operations while preserving functional purity?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "By using mutable global variables",
+          "is_correct": false
+        },
+        {
+          "text": "By allowing side effects in special functions",
+          "is_correct": false
+        },
+        {
+          "text": "Through the `IO` monad, which threads state between actions",
+          "is_correct": true
+        },
+        {
+          "text": "By converting all I/O to pure string manipulations",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "module_id": 2,
+      "question_text": "What is the result of `[1, 2] >>= (\\x -> [x, x*2])`?",
+      "question_type": "multiple_choice",
+      "difficulty": "hard",
+      "answers": [
+        {
+          "text": "[1, 2, 2, 4]",
+          "is_correct": true
+        },
+        {
+          "text": "[1, 2]",
+          "is_correct": false
+        },
+        {
+          "text": "[1, 2, 4]",
+          "is_correct": false
+        },
+        {
+          "text": "An error",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "module_id": 2,
+      "question_text": "Which type class constraint would you use to ensure a function can sum elements of a list?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "(Eq a)",
+          "is_correct": false
+        },
+        {
+          "text": "(Ord a)",
+          "is_correct": false
+        },
+        {
+          "text": "(Num a)",
+          "is_correct": true
+        },
+        {
+          "text": "(Show a)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "module_id": 2,
+      "question_text": "What does the `do` notation in Haskell desugar to?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Nested function calls",
+          "is_correct": false
+        },
+        {
+          "text": "A series of `>>=` and `>>` operations",
+          "is_correct": true
+        },
+        {
+          "text": "Pattern matching expressions",
+          "is_correct": false
+        },
+        {
+          "text": "Type class instances",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "module_id": 2,
+      "question_text": "In the `IO` monad, what does `return \"Hello\"` produce?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "A string printed to the console",
+          "is_correct": false
+        },
+        {
+          "text": "An `IO` action that yields the string \"Hello\" without side effects",
+          "is_correct": true
+        },
+        {
+          "text": "A function that takes a world state",
+          "is_correct": false
+        },
+        {
+          "text": "An error because `return` is not defined for `IO`",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "module_id": 2,
+      "question_text": "Which of the following is NOT a common type class in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Eq",
+          "is_correct": false
+        },
+        {
+          "text": "Ord",
+          "is_correct": false
+        },
+        {
+          "text": "Loop",
+          "is_correct": true
+        },
+        {
+          "text": "Show",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "module_id": 2,
+      "question_text": "What does it mean for functions to be 'first-class citizens' in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Functions are always defined before variables",
+          "is_correct": false
+        },
+        {
+          "text": "Functions can be assigned to variables, passed as arguments, and returned as results",
+          "is_correct": true
+        },
+        {
+          "text": "Functions are evaluated before any other expressions",
+          "is_correct": false
+        },
+        {
+          "text": "Functions cannot be nested",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "module_id": 2,
+      "question_text": "Which of the following is a lambda expression in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "def f x = x + 1",
+          "is_correct": false
+        },
+        {
+          "text": "\\x -> x + 1",
+          "is_correct": true
+        },
+        {
+          "text": "function(x) { return x + 1; }",
+          "is_correct": false
+        },
+        {
+          "text": "let f x = x + 1",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "module_id": 2,
+      "question_text": "What is the result of `applyTwice (*2) 3` if `applyTwice f x = f (f x)`?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "6",
+          "is_correct": false
+        },
+        {
+          "text": "12",
+          "is_correct": true
+        },
+        {
+          "text": "9",
+          "is_correct": false
+        },
+        {
+          "text": "18",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "module_id": 2,
+      "question_text": "What does the `map` function do in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Filters a list based on a predicate",
+          "is_correct": false
+        },
+        {
+          "text": "Applies a function to each element of a list",
+          "is_correct": true
+        },
+        {
+          "text": "Sorts a list in ascending order",
+          "is_correct": false
+        },
+        {
+          "text": "Reduces a list to a single value",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "module_id": 2,
+      "question_text": "What is currying in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "A way to define recursive functions",
+          "is_correct": false
+        },
+        {
+          "text": "Transforming a function that takes multiple arguments into a series of single-argument functions",
+          "is_correct": true
+        },
+        {
+          "text": "A method for handling errors using Maybe",
+          "is_correct": false
+        },
+        {
+          "text": "Using pattern matching to decompose data",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "module_id": 2,
+      "question_text": "If `addThree :: Int -> Int -> Int -> Int` is defined as `addThree x y z = x + y + z`, what is `addThree 1 2`?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "3",
+          "is_correct": false
+        },
+        {
+          "text": "A function of type `Int -> Int`",
+          "is_correct": true
+        },
+        {
+          "text": "An error because too few arguments",
+          "is_correct": false
+        },
+        {
+          "text": "6",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "module_id": 2,
+      "question_text": "What is the purpose of partial application?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "To evaluate expressions lazily",
+          "is_correct": false
+        },
+        {
+          "text": "To fix a subset of a function's arguments to create a new function",
+          "is_correct": true
+        },
+        {
+          "text": "To force strict evaluation of an expression",
+          "is_correct": false
+        },
+        {
+          "text": "To compose two functions together",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "module_id": 2,
+      "question_text": "What does lazy evaluation mean in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Expressions are evaluated as soon as they are defined",
+          "is_correct": false
+        },
+        {
+          "text": "Expressions are evaluated only when their values are needed",
+          "is_correct": true
+        },
+        {
+          "text": "Functions are evaluated from left to right",
+          "is_correct": false
+        },
+        {
+          "text": "All arguments are evaluated before a function is called",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "module_id": 2,
+      "question_text": "What is a thunk in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "A type of algebraic data type",
+          "is_correct": false
+        },
+        {
+          "text": "A placeholder for an unevaluated expression",
+          "is_correct": true
+        },
+        {
+          "text": "A strict evaluation function",
+          "is_correct": false
+        },
+        {
+          "text": "A higher-order function",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "module_id": 2,
+      "question_text": "Which of the following is a potential disadvantage of lazy evaluation?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "It always uses more CPU time",
+          "is_correct": false
+        },
+        {
+          "text": "It can lead to space leaks due to accumulated thunks",
+          "is_correct": true
+        },
+        {
+          "text": "It prevents the use of infinite data structures",
+          "is_correct": false
+        },
+        {
+          "text": "It requires more type annotations",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "module_id": 2,
+      "question_text": "What is the result of `take 3 [1..]` in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "[1, 2, 3]",
+          "is_correct": true
+        },
+        {
+          "text": "An infinite loop",
+          "is_correct": false
+        },
+        {
+          "text": "[1]",
+          "is_correct": false
+        },
+        {
+          "text": "An error",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "module_id": 2,
+      "question_text": "Which function can be used to force strict evaluation and avoid space leaks?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "map",
+          "is_correct": false
+        },
+        {
+          "text": "seq",
+          "is_correct": true
+        },
+        {
+          "text": "foldr",
+          "is_correct": false
+        },
+        {
+          "text": "filter",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "module_id": 2,
+      "question_text": "What does the function composition operator `.` do in Haskell?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "Adds two numbers",
+          "is_correct": false
+        },
+        {
+          "text": "Applies the second function to the result of the first",
+          "is_correct": true
+        },
+        {
+          "text": "Creates a tuple of two functions",
+          "is_correct": false
+        },
+        {
+          "text": "Forces evaluation of an expression",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "module_id": 2,
+      "question_text": "In the expression `f x y = if x > 0 then x else y`, if `f 10 (error \"msg\")` is called, what happens?",
+      "question_type": "multiple_choice",
+      "difficulty": "medium",
+      "answers": [
+        {
+          "text": "Both arguments are evaluated",
+          "is_correct": false
+        },
+        {
+          "text": "Only x is evaluated, y is not evaluated",
+          "is_correct": true
+        },
+        {
+          "text": "Only y is evaluated, x is not evaluated",
+          "is_correct": false
+        },
+        {
+          "text": "An error is raised immediately",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "module_id": 2,
+      "question_text": "Which of the following best describes a higher-order function?",
+      "question_type": "multiple_choice",
+      "difficulty": "easy",
+      "answers": [
+        {
+          "text": "A function that returns a boolean",
+          "is_correct": false
+        },
+        {
+          "text": "A function that takes another function as an argument or returns a function",
+          "is_correct": true
+        },
+        {
+          "text": "A function that only works on lists",
+          "is_correct": false
+        },
+        {
+          "text": "A function that is defined recursively",
+          "is_correct": false
+        }
+      ]
+    }
+  ]
+}
